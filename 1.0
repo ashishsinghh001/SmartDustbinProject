@@ -1,0 +1,2 @@
+# SmartDustbinProject
+Created a smart dustbin for buildings, hospitals, offices and some small areas. • Technology used is IOT and Arduino. It detects garbage level in dustbin and whenever dustbin is full it sends data on server. • When dustbin is full it starts following a line and dumps garbage at particular allotted place. After dumping garbage returns back to its original place.
