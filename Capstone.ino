@@ -87,7 +87,7 @@ while(x = 0)
        digitalWrite(RM1, LOW);
        digitalWrite(RM2, HIGH);
 
-           if(digitalRead(LS) && !(digitalRead(RS))) // turn left by rotationg left motors in forward and right ones in backward direction
+           if(digitalRead(LS) && !(digitalRead(RS)))
             {
               digitalWrite(LM1, LOW);
               digitalWrite(LM2, HIGH);
@@ -95,7 +95,7 @@ while(x = 0)
               digitalWrite(RM2, LOW);
             } 
 
-          if(!(digitalRead(LS)) && digitalRead(RS)) // Turn right by rotating right motors in forward and left ones in backward direction
+          if(!(digitalRead(LS)) && digitalRead(RS)) 
             {
               digitalWrite(LM1, HIGH);
               digitalWrite(LM2, LOW);
@@ -103,7 +103,7 @@ while(x = 0)
               digitalWrite(RM2, HIGH);
             } 
 
-           if(!(digitalRead(LS)) && !(digitalRead(RS))) // Finish line, stop both the motors
+           if(!(digitalRead(LS)) && !(digitalRead(RS))) 
             {
               digitalWrite(LM1, LOW);
               digitalWrite(LM2, LOW);
